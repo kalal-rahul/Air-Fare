@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Passenger</title>
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="top-header">
+        <div class="sticky">
+            <nav class="navbar container flex">
+                <div class="logo">
+                    <img src="FlightBookingLogo.jpg" alt="Company Logo">
+                </div>
+
+                <div class="menu">
+                    <ul class="menu-items flex">
+                        <a href="#" class="hover-link">
+                            <li>My Bookings</li>
+                        </a>
+                        <a href="#" class="hover-link">
+                            <li>Services</li>
+                        </a>
+                        <a href="#" class="primary-button">
+                            <li>Log Out</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Hero-item -->
+    <div class="hero">
+        <div class="container passenger-container">
+            <div class="header flex">
+                <h2><span>Add Passenger Details</span>
+                </h2>
+                <button id="add-passenger">Add Passenger</button>
+            </div>
+
+            <!-- Input Details -->
+            <div class="wrapper">
+                <!-- This will be generated dynamically as button is clicked -->
+                <!-- <div class="input-container input-flex">
+                    <input class="input-field" type="text" placeholder="Name" name="name">
+                    <input class="input-field" type="text" placeholder="Age" name="age">
+                    <input class="input-field" type="text" placeholder="Seat Type" name="seat-type">
+                    <button class="remove-passenger">Remove Passenger</button>
+                </div>     -->
+            </div>
+
+            <div class="book-btn flex hero-item payment-btn">
+                <a href="PaymentPage.html" class="secondary-button"> Proceed to Payment <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="white-space" style="height: 100px;"></div>
+
+    <!-- This gets the font and icons from FONT AWESOME.com -->
+    <script src="addPassenger.js"></script>
+    <script src="https://kit.fontawesome.com/39072a40ab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+/* RESET  */
+@font-face {
+    font-family: minion-pro;
+    src: url(../minionPro.otf);
+
+    font-family:garde-gothic ;
+    src:url(../garde-gothic.otf) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#011e41;
+    --secondary-text-color:#363636;
+    --desc-text-color:#1c355e;
+    --accent-color-dark:#3d7dca;
+    --padding-inline-section:20px;
+}
+
+body{
+    font-family: garde-gothic, sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 2.75rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family:minion-pro, serif;
+    color: var(--desc-text-color);
+    font-size: 1.30rem;
+    line-height: 32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Utility */
+.container{
+    max-width: 1048px ;
+    margin:auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+}
+
+.column-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.primary-button{
+    color: white;
+    background-color: var(--accent-color-dark);
+    padding: 10px 24px;
+}
+
+.secondary-button{
+    border: solid 1px var(--accent-color-dark);
+    padding: 10px;
+    color: var(--accent-color-dark);
+}
+
+.secondary-button:hover{
+    color: white;
+    background-color: var(--accent-color-dark);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.primary-button:hover{
+    box-shadow: 0 0 4px var(--accent-color-dark);
+    transition: 0.2s ease-in-out;
+}
+
+.hover-link{
+    color: var(--accent-color-dark);
+}
+.hover-link:hover{
+    color: var(--secondary-text-color);
+    transition: 0.2s ease-in-out;
+}
+
+.sticky{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
+
+/* NAV- BAR */
+
+.navbar{
+    justify-content: space-between;
+    padding-inline: var(--padding-inline-section);
+    margin-block: 30px;
+}
+
+.logo img{
+    height: 80px;
+    width: 100px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-items{
+    color: var(--accent-color-dark);
+    font-size: 1.2rem;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* HERO - ITEM */
+.hero{
+    margin-block: 150px;  /*Gives Top and Bottom */
+}
+
+.hero-item{
+    max-width: 720px;
+    padding-inline: 25px;
+}
+
+.hero-item h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-item p{
+    text-align: start;
+    font-size: 1.37rem;
+    word-spacing: 3.5px;
+    margin-bottom: 50px;
+}
+
+.plus-sign{
+    color: #ffda27 !important;
+    font-weight: normal;
+}
+
+.hero-item a{
+    font-size: 1.5rem;
+}
+
+
+
+
+/* Journey Details  -- BOOKING PAGE*/
+.journey-details-container{
+    margin-block: 50px;
+    padding-inline: 20px;
+}
+
+.dropdown{
+    padding-block: 5px;
+    padding-inline: 12px;
+    font-size: 1rem;
+    margin-right: 20px;
+    font-family:minion-pro, serif;
+}
+
+.label-text{
+    font-size: 1.2rem;
+}
+
+.book-btn{
+    justify-content:center;
+    margin-right: 20px;
+}
+
+
+/* ADD PASSENGER PAGE */
+
+.payment-btn{
+    margin-block: 20px;
+}
+
+.passenger-container{
+    max-width: 800px;
+    padding-inline: 25px;
+}
+
+.header{
+    justify-content: space-between;
+    margin-block: 20px;
+    
+}
+
+.input-field{
+    padding-inline: 5px;
+    font-family:minion-pro, serif;
+    font-size: 0.9rem;
+}
+
+#add-passenger{
+    padding-inline: 10px;
+    border-radius: 5px;
+    background-color: rgb(161, 236, 87);
+    cursor: pointer;
+    border: #a1ec57;
+    font-family: garde-gothic, sans-serif;
+}
+
+#add-passenger:hover{
+    border: 2px solid  #cccc;
+}
+
+#add-passenger:active{
+    box-shadow: 0 0 5px ;
+}
+
+.remove-passenger{
+    padding-inline: 10px;
+    padding-block: 5px;
+    background-color: #f34c4c;
+    cursor: pointer;
+    font-family: garde-gothic, sans-serif;
+    border: solid 2px #f34c4c;
+    border-radius: 4px;
+}
+
+.remove-passenger:active{
+    box-shadow: 0 0 4px ;
+}
+
+.remove-passenger:hover{
+    background-color: #ee2121;
+    border: 2px solid #ffff;
+}
+
+.input-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 10px;
+}
+
+
+
+
+
+
+
+
+/* Payment Page */
+.payment-btn{
+    /* justify-content:center; */
+    margin-block: 50px;
+    /* align-items: flex-start; */
+}
+
+
+
+
+
+
