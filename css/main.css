@@ -47,6 +47,7 @@ p{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul{
@@ -262,12 +263,6 @@ ul{
 }
 
 
-
-
-
-
-
-
 /* Payment Page */
 .payment-btn{
     /* justify-content:center; */
@@ -276,7 +271,130 @@ ul{
 }
 
 
+/* Modal */
+dialog{
+    border: 0.1px solid rgb(167, 167, 167);
+    border-radius: 15px;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(2px);
+  }
 
 
+#close-modal{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
+
+#close-modal:active{
+    border: 1px solid #cccc;
+}
+
+.modal-container{
+    margin: 20px;
+    max-height: 150px;
+    max-width: 500px;
+    overflow: auto;
+}
+
+.modal-container::-webkit-scrollbar{
+    width: 10px;
+    background-color: #bb1717cc;
+}
+
+.modal-container::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+.modal-container::-webkit-scrollbar-thumb{
+    background-color:var(--accent-color-dark);
+    border-radius: 10px;
+    height: 50px; /* You cannot alter the thumb height it comes by default */
+}
+
+/* Modal Table Styling */
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border: 0.1px solid black;
+}
+
+
+
+th, td{
+    padding: 5px;
+    border: 0.1px solid black;
+    font-size: 0.8rem;
+}
+
+td{
+    font-family:minion-pro, serif;
+    color: var(--desc-text-color);
+}
+
+.modal-confirm-btn{
+    font-size: 0.8rem;
+    border-radius: 10px;
+}
+
+/* Footer  */
+
+.footer{
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.footer-h3{
+    font-size: 1.3rem;
+}
+
+.copyright{
+    gap: 20px;
+}
+
+.Join-us{
+    max-width: 260px;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+.socials{
+    margin-inline: 40px;
+    gap: 20px;
+}
+
+.contact-us{
+    gap: 20px;
+}
+
+.social-links  {
+    gap: 10px;
+}
+.contact-links{
+    gap: 10px;
+}
+
+.book-footer{
+    position:relative;
+    bottom: 10px;
+    justify-content: center;
+}
+
+.book-footer-items{
+    align-items: center;
+}
 
 
