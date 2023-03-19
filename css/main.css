@@ -3,108 +3,109 @@
     font-family: minion-pro;
     src: url(../minionPro.otf);
 
-    font-family:garde-gothic ;
-    src:url(../garde-gothic.otf) ;
+    font-family: garde-gothic;
+    src: url(../garde-gothic.otf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --primary-text-color:#011e41;
-    --secondary-text-color:#363636;
-    --desc-text-color:#1c355e;
-    --accent-color-dark:#3d7dca;
-    --padding-inline-section:20px;
+:root {
+    --primary-text-color: #011e41;
+    --secondary-text-color: #363636;
+    --desc-text-color: #1c355e;
+    --accent-color-dark: #3d7dca;
+    --padding-inline-section: 20px;
 }
 
-body{
+body {
     font-family: garde-gothic, sans-serif;
     color: var(--primary-text-color);
 }
 
-h1{
+h1 {
     font-size: 2.75rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
 }
 
-p{
-    font-family:minion-pro, serif;
+p {
+    font-family: minion-pro, serif;
     color: var(--desc-text-color);
     font-size: 1.30rem;
     line-height: 32px;
 }
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 /* Utility */
-.container{
-    max-width: 1048px ;
-    margin:auto;
+.container {
+    max-width: 1048px;
+    margin: auto;
     padding-inline: var(--padding-inline-section);
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.column-flex{
+.column-flex {
     display: flex;
     flex-direction: column;
 }
 
 
-.primary-button{
+.primary-button {
     color: white;
     background-color: var(--accent-color-dark);
     padding: 10px 24px;
 }
 
-.secondary-button{
+.secondary-button {
     border: solid 1px var(--accent-color-dark);
     padding: 10px;
     color: var(--accent-color-dark);
 }
 
-.secondary-button:hover{
+.secondary-button:hover {
     color: white;
     background-color: var(--accent-color-dark);
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 
-.primary-button:hover{
+.primary-button:hover {
     box-shadow: 0 0 4px var(--accent-color-dark);
     transition: 0.2s ease-in-out;
 }
 
-.hover-link{
+.hover-link {
     color: var(--accent-color-dark);
 }
-.hover-link:hover{
+
+.hover-link:hover {
     color: var(--secondary-text-color);
     transition: 0.2s ease-in-out;
 }
 
-.sticky{
-    position:fixed;
+.sticky {
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #ffffff;
@@ -115,22 +116,23 @@ ul{
 
 /* NAV- BAR */
 
-.navbar{
+.navbar {
     justify-content: space-between;
     padding-inline: var(--padding-inline-section);
     margin-block: 30px;
 }
 
-.logo img{
+.logo img {
     height: 80px;
     width: 100px;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
-.menu-items{
+
+.menu-items {
     color: var(--accent-color-dark);
     font-size: 1.2rem;
     gap: 45px;
@@ -140,33 +142,34 @@ ul{
 
 
 /* HERO - ITEM */
-.hero{
-    margin-block: 150px;  /*Gives Top and Bottom */
+.hero {
+    margin-block: 150px;
+    /*Gives Top and Bottom */
 }
 
-.hero-item{
+.hero-item {
     max-width: 720px;
     padding-inline: 25px;
 }
 
-.hero-item h1{
+.hero-item h1 {
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.hero-item p{
+.hero-item p {
     text-align: start;
     font-size: 1.37rem;
     word-spacing: 3.5px;
     margin-bottom: 50px;
 }
 
-.plus-sign{
+.plus-sign {
     color: #ffda27 !important;
     font-weight: normal;
 }
 
-.hero-item a{
+.hero-item a {
     font-size: 1.5rem;
 }
 
@@ -174,53 +177,53 @@ ul{
 
 
 /* Journey Details  -- BOOKING PAGE*/
-.journey-details-container{
+.journey-details-container {
     margin-block: 50px;
     padding-inline: 20px;
 }
 
-.dropdown{
+.dropdown {
     padding-block: 5px;
     padding-inline: 12px;
     font-size: 1rem;
     margin-right: 20px;
-    font-family:minion-pro, serif;
+    font-family: minion-pro, serif;
 }
 
-.label-text{
+.label-text {
     font-size: 1.2rem;
 }
 
-.book-btn{
-    justify-content:center;
+.book-btn {
+    justify-content: center;
     margin-right: 20px;
 }
 
 
 /* ADD PASSENGER PAGE */
 
-.payment-btn{
+.payment-btn {
     margin-block: 20px;
 }
 
-.passenger-container{
+.passenger-container {
     max-width: 800px;
     padding-inline: 25px;
 }
 
-.header{
+.header {
     justify-content: space-between;
     margin-block: 20px;
-    
+
 }
 
-.input-field{
+.input-field {
     padding-inline: 5px;
-    font-family:minion-pro, serif;
+    font-family: minion-pro, serif;
     font-size: 0.9rem;
 }
 
-#add-passenger{
+#add-passenger {
     padding-inline: 10px;
     border-radius: 5px;
     background-color: rgb(161, 236, 87);
@@ -229,15 +232,15 @@ ul{
     font-family: garde-gothic, sans-serif;
 }
 
-#add-passenger:hover{
-    border: 2px solid  #cccc;
+#add-passenger:hover {
+    border: 2px solid #cccc;
 }
 
-#add-passenger:active{
-    box-shadow: 0 0 5px ;
+#add-passenger:active {
+    box-shadow: 0 0 5px;
 }
 
-.remove-passenger{
+.remove-passenger {
     padding-inline: 10px;
     padding-block: 5px;
     background-color: #f34c4c;
@@ -247,32 +250,24 @@ ul{
     border-radius: 4px;
 }
 
-.remove-passenger:active{
-    box-shadow: 0 0 4px ;
+.remove-passenger:active {
+    box-shadow: 0 0 4px;
 }
 
-.remove-passenger:hover{
+.remove-passenger:hover {
     background-color: #ee2121;
     border: 2px solid #ffff;
 }
 
-.input-flex{
+.input-flex {
     display: flex;
     justify-content: space-between;
     margin-block: 10px;
 }
 
 
-/* Payment Page */
-.payment-btn{
-    /* justify-content:center; */
-    margin-block: 50px;
-    /* align-items: flex-start; */
-}
-
-
 /* Modal */
-dialog{
+dialog {
     border: 0.1px solid rgb(167, 167, 167);
     border-radius: 15px;
     padding: 10px;
@@ -280,52 +275,53 @@ dialog{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
 
 dialog::backdrop {
     backdrop-filter: blur(2px);
-  }
+}
 
 
-#close-modal{
+#close-modal {
     height: 25px;
     width: 25px;
     cursor: pointer;
-  }
+}
 
-#close-modal:active{
+#close-modal:active {
     border: 1px solid #cccc;
 }
 
-.modal-container{
+.modal-container {
     margin: 20px;
     max-height: 150px;
     max-width: 500px;
     overflow: auto;
 }
 
-.modal-container::-webkit-scrollbar{
+.modal-container::-webkit-scrollbar {
     width: 10px;
     background-color: #bb1717cc;
 }
 
-.modal-container::-webkit-scrollbar-track{
+.modal-container::-webkit-scrollbar-track {
     background-color: white;
 }
 
-.modal-container::-webkit-scrollbar-thumb{
-    background-color:var(--accent-color-dark);
+.modal-container::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color-dark);
     border-radius: 10px;
-    height: 50px; /* You cannot alter the thumb height it comes by default */
+    height: 50px;
+    /* You cannot alter the thumb height it comes by default */
 }
 
 /* Modal Table Styling */
-table{
+table {
     border-collapse: collapse;
 }
 
-thead{
+thead {
     position: sticky;
     top: 0;
     background-color: white;
@@ -334,67 +330,102 @@ thead{
 
 
 
-th, td{
+th,
+td {
     padding: 5px;
     border: 0.1px solid black;
     font-size: 0.8rem;
 }
 
-td{
-    font-family:minion-pro, serif;
+td {
+    font-family: minion-pro, serif;
     color: var(--desc-text-color);
 }
 
-.modal-confirm-btn{
+.modal-confirm-btn {
     font-size: 0.8rem;
     border-radius: 10px;
 }
 
+
+/* Important Information - ADD PASSENGER  Page*/
+
+.info-head {
+    background-color: #f34c4c;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.caution-logo {
+    height: 25px;
+    width: 25px;
+}
+
+.caution-head {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info {
+    margin-bottom: 40px;
+    gap: 15px;
+}
+
+.info p {
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+}
+
 /* Footer  */
 
-.footer{
+.footer {
     margin-bottom: 20px;
     justify-content: space-evenly;
 }
 
-.footer-h3{
+.footer-h3 {
     font-size: 1.3rem;
 }
 
-.copyright{
+.copyright {
     gap: 20px;
 }
 
-.Join-us{
+.Join-us {
     max-width: 260px;
     margin-left: 40px;
     gap: 20px;
 }
 
-.socials{
+.socials {
     margin-inline: 40px;
     gap: 20px;
 }
 
-.contact-us{
+.contact-us {
     gap: 20px;
 }
 
-.social-links  {
-    gap: 10px;
-}
-.contact-links{
+.social-links {
     gap: 10px;
 }
 
-.book-footer{
-    position:relative;
+.contact-links {
+    gap: 10px;
+}
+
+.book-footer {
+    position: relative;
     bottom: 10px;
     justify-content: center;
 }
 
-.book-footer-items{
+.book-footer-items {
     align-items: center;
 }
-
-

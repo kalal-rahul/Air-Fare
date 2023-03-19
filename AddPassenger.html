@@ -72,46 +72,107 @@
     </div>
 
     <!-- Passenger details Modal -->
-    <dialog >
+    <dialog>
         <div>
-            <img  src="./assets/close.png" id="close-modal">
+            <img src="./assets/close.png" id="close-modal">
         </div>
         <h1 style="font-size: 1.35rem; width: 100%; text-align: center;">Passenger Details</h1>
-       <div class="container modal-container">
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Sl.No</th>
-                        <th>Passenger Name</th>
-                        <th>Seat type</th>
-                        <th>Fare</th>
-                    </tr>
-                </thead>
-            </table>
-        </div> 
+        <div class="container modal-container">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sl.No</th>
+                            <th>Passenger Name</th>
+                            <th>Seat type</th>
+                            <th>Fare</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
 
-      <div class="flex" style="margin-block: 30px; justify-content: space-evenly;align-items: center;" >
-        <a class="secondary-button modal-confirm-btn" id="proceed-payment"  href="../Book-Flight/BookingConfirm.html"> Confirm & Make Payment</a>
-        <h4 id="total-fare"></h4>
-      </div>
-        
-       </div>
+            <div class="flex" style="margin-block: 30px; justify-content: space-evenly;align-items: center;">
+                <a class="secondary-button modal-confirm-btn" id="proceed-payment"
+                    href="../Book-Flight/BookingConfirm.html"> Confirm &
+                    Make Payment</a>
+                <h4 id="total-fare"></h4>
+            </div>
 
-       
-       
-        
+        </div>
     </dialog>
 
-     <!-- Footer  -->
-     <div class="container flex book-footer" >
+    <div class=" container info column-flex">
+        <div>
+            <h3 class="info-head">
+                IMPORTANT INFORMATION
+            </h3>
+        </div>
+
+        <div>
+            <h4 class="caution-head">
+                <img src="assets/error.png" alt="caution" class="caution-logo">
+                COVID Guidelines and Vaccination Requirements
+            </h4>
+            <p>
+                <b>&#x2022 Documents Required:</b> All travellers must either carry their COVID vaccination
+                certificate (2 doses taken) or a negative RT-PCR test report with sample taken within 72 hours before
+                arrival.
+                <br>
+
+                <b>&#x2022 Test on Arrival:</b> Travellers arriving in emergency situations such as a death in the
+                family,
+                medical treatment
+                might have to take an on-arrival test and further action will be decided on the basis of test result.
+                <br>
+
+                &#x2022 If you have arrived on any international flight and are taking a connecting domestic flight,
+                Please check the 'Travelling to India Guidelines'.
+                <br>
+            </p>
+        </div>
+        <div>
+            <h4 class="caution-head">
+                <img src="assets/error.png" alt="caution" class="caution-logo">
+                Pre-Flight Checklist
+            </h4>
+            <p>
+                &#x2022 Remember to web check-in before arriving at the airport; carry a printed or soft copy of the
+                boarding
+                pass. <br>
+
+                &#x2022 Wearing masks/face covers is no longer mandatory. However,
+                all travellers are advised to wear them, in view of the threat posed by COVID-19. <br>
+
+                &#x2022 One hand bag up to 7 kgs and 55x35x25cm, is allowed per traveller as cabin baggage.
+                Certain personal articles like a lady's purse, laptop bags, etc. can be carried additionally. <br>
+            </p>
+        </div>
+        <div>
+            <h4>
+                DISCLAIMER:
+            </h4>
+            <p style="font-size: 1rem; line-height: 1.25;">
+                <i>
+                    The information provided above is only for ready reference and convenience of customers,
+                    and may not be exhaustive. We strongly recommend that you check the full text of the guidelines
+                    issued by the State Governments and Airlines before travelling to ensure smooth travel.
+                    We accept no liability in this regard.
+                    In case you do not meet the required guidelines, the airline or state authorities can stop you from
+                    travelling.
+                </i>
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="container flex book-footer">
         <div class="copyright  flex book-footer-items">
             <h3 class="footer-h3">BookFlight &copy; 2023</h3>
             <p>All rights reserved</p>
         </div>
     </div>
 
-    
+
     <!-- This gets the font and icons from FONT AWESOME.com -->
     <script src="addPassenger.js"></script>
     <script src="https://kit.fontawesome.com/39072a40ab.js" crossorigin="anonymous"></script>

@@ -136,7 +136,7 @@ const closeModalBtn = document.getElementById("close-modal");
 closeModalBtn.addEventListener("click", () => {
 
     const getAllTableRows = document.getElementsByTagName("tr");
-    let count = getAllTableRows.length; getAllTableRows.length;
+    let count = getAllTableRows.length;
 
     while (getAllTableRows.length !== 1) {
         getAllTableRows[count - 1].remove();
