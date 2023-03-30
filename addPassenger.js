@@ -2,6 +2,11 @@ console.log("YES JS is working");
 const addButton = document.getElementById("add-passenger");
 addButton.addEventListener("click", addInputField);
 
+let existingRemovePassengerBtns = Array
+.from(document.getElementsByClassName("default-remove-btn"))
+.forEach((removeBtn) => {
+    removeBtn.addEventListener("click", removeInputField);
+})
 
 function addInputField() {
     // Container 
