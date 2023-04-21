@@ -146,8 +146,10 @@ ul {
 .logo img {
     height: 80px;
     width: 100px;
+}
 
-    @media(max-width:480px){
+@media(max-width:480px){
+    .logo img{
         height: 10px;
         width: 10px;
     }
