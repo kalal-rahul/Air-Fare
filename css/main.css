@@ -19,6 +19,10 @@
     --desc-text-color: #1c355e;
     --accent-color-dark: #3d7dca;
     --padding-inline-section: 20px;
+
+    @media(max-width:480px){
+        font-size:75%;
+    }
 }
 
 body {
@@ -132,9 +136,8 @@ ul {
 
     @media(max-width:480px){
         margin-inline:20px;
-        padding-inline:10px;
-        margin-left:5px;
-        justify-content:unset;
+        padding-inline:20px;
+        margin:auto;
         gap:10px;
     }
     
@@ -307,6 +310,7 @@ ul {
     border-radius: 4px;
 
     @media(max-width:480px){
+        font-size:0.8rem;
         padding-inline: 6px;
         padding-block: 3px;
       }
@@ -387,7 +391,7 @@ dialog::backdrop {
     overflow: auto;
 
     @media(max-width:480px){
-        width: 350px;
+        width: 270px;
      }
 }
 
@@ -480,7 +484,7 @@ td {
     background-color: #f9f9f9cc;
 
     @media(max-width:480px){
-        max-width: 380px;
+        max-width: 360px;
         font-size:1rem;
      }
 
@@ -573,6 +577,7 @@ td {
     left: 20%;
 
     @media(max-width:480px){
+        width:350px;
         padding-inline: 0px;
         left: 8%;
     }
